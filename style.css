@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: lightgray;
+}
+
+.cart-container {
+    /* Add styling for the container */
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+
+  h1{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    color: gold;
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: xx-large;
+    position: fixed;
+  }
+  
+  .cart-items {
+    /* Add styling for the items container */
+    width: 95%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-item {
+    /* Add styling for each item in the cart */
+    flex: 30%;
+    width: 300px;
+    margin: 10px;
+    background-color: gray;
+    height: 475px;
+    border-radius: 10px;
+
+  }
+
+  img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  h3{
+    font-size: 1.8rem;
+    color: gold;
+  }
+  
+  .item-details {
+    /* Add styling for the item details section */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item-details p{
+    margin: 5px 0;
+    font-size: 1.5rem;
+    color: rgb(255, 233, 124);
+  }
+  
+  .quantity-btn {
+    /* Add styling for the quantity buttons */
+    padding: 5px 8px;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+  }
+
+  .quantity-btn:hover {
+    background-color: goldenrod;
+  }
+  
+  .quantity {
+    /* Add styling for the quantity display */
+    color: rgb(255, 233, 124);
+  }
+  
+  .delete-btn, .like-btn{
+    /* Add styling for the delete button */
+    margin: 10px 3px ;
+    padding: 10px 15px;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .like-btn {
+    /* Add styling for the like button */
+    background-color: cornflowerblue;
+  }
+
+  hr{
+    height: 3px;
+    font-weight: 900;
+    background-color: gray;
+  }
+  
+  .total-price {
+    /* Add styling for the total price section */
+    color: gold;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .liked{
+    background-color: rgb(14, 91, 233);
+  }
